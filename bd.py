@@ -27,7 +27,7 @@ def write_user_to_bd(list_of_data: tuple):
             cur.execute("INSERT OR IGNORE INTO users(user_id, user_name, user_phone, user_last_name) "
                         "VALUES(?,?,?,?)",
                         tp)
-            print('Пользователи записаны')
+        print('Пользователи записаны')
 
 
 if __name__ == '__main__':
